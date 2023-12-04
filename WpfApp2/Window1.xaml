@@ -6,19 +6,16 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="Информационная система для центра детского творчества" Height="203" Width="613" Icon="/image-PhotoRoom.png-PhotoRoom.png"
-        WindowStartupLocation="CenterScreen" MinWidth="800" MinHeight="500"
-        >
+        WindowStartupLocation="CenterScreen" MinWidth="800" MinHeight="500" >
     <Grid Background="#FFFFECED" >
-        <Canvas Background="#FFFFECED" HorizontalAlignment="Left" Width="129" Margin="0,0,0,276">
-            <Button x:Name="MStudents" Content="Ученики" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="10" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Foreground="Black" Click="MStudents_Click"/>
-            <Button x:Name="MTeachers"  Content="Наставники" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="50" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262"/>
-            <Button x:Name="MDirection" Content="Направления" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="90" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262"/>
-            <Button x:Name="MLessons" Content="Занятия" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="130" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262"/>
-            <Button x:Name="MReports" Content="Отчеты" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="170" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262"/>
+        <Canvas HorizontalAlignment="Left" Width="129" Margin="0,0,0,276">
+            <Button x:Name="MStudents" Content="Ученики" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="10" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Click="MStudents_Click"/>
+            <Button x:Name="MTeachers"  Content="Наставники" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="50" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Click="MTeachers_Click"/>
+            <Button x:Name="MDirection" Content="Направления" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="90" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Click="MDirection_Click"/>
+            <Button x:Name="MLessons" Content="Занятия" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="130" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Click="MLessons_Click"/>
+            <Button x:Name="MReports" Content="Отчеты" Height="24" Width="110" HorizontalAlignment="Center" Canvas.Left="10" Canvas.Top="170" VerticalAlignment="Top" Background="#FFFFB0B0" BorderBrush="#FFB56262" Click="MReports_Click"/>
         </Canvas>
-        <TabControl x:Name="mainTabControl" Margin="129,10,10,10">
-           
-        </TabControl>
+        <Frame x:Name="Frame" Margin="134,10,10,10" NavigationUIVisibility="Hidden"/>
         <TextBlock TextWrapping="Wrap" Text="Информационная система для центра детского творчества, 2023" TextAlignment="Center" FontSize="7" Foreground="#FFB56262" RenderTransformOrigin="0.5,0.5" MaxHeight="30" MaxWidth="111" Margin="10,0,0,10" HorizontalAlignment="Left" Width="108" Height="33" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
