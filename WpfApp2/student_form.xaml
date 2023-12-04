@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp2.student_form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"  
+WindowStartupLocation="CenterScreen"
+        Title="Ученик" Height="406" Width="399" Icon="/image-PhotoRoom.png-PhotoRoom.png">
+    <Grid Background="#FFFFECED" Margin="0,0,0,-6">
+        <Canvas HorizontalAlignment="Center" Height="274" Margin="0,38,0,0" VerticalAlignment="Top" Width="298" RenderTransformOrigin="0.5,0.5">
+            <Grid Width="300" Height="25" Canvas.Top="0" VerticalAlignment="Top" HorizontalAlignment="Left">
+                <Label Content="Фамилия" Canvas.Top="34" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBox Width="200" Height="25" HorizontalAlignment="Right" Margin="71,0,0,0" FontSize="14" MaxLength="25"/>
+            </Grid>
+            <Grid Width="300" Height="25" Canvas.Top="40" VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Label Content="Имя" Width="46" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="116" Canvas.Top="137"/>
+                <TextBox Width="200" Height="25" HorizontalAlignment="Right" Margin="71,0,0,0" FontSize="14" MaxLength="25"/>
+            </Grid>
+            <Grid Width="300" Height="25" Canvas.Top="80" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Label Content="Отчество" HorizontalAlignment="Left" Canvas.Top="94" VerticalAlignment="Top"/>
+                <TextBox Width="200" Height="25" HorizontalAlignment="Right" Margin="71,0,0,0" FontSize="14" MaxLength="25"/>
+            </Grid>
+            <Grid Width="300" Height="25" Canvas.Top="120" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Label Content="Дата Рождения" Canvas.Top="122" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                <DatePicker Height="26" Width="200" IsDropDownOpen="False" SelectedDateFormat="Short" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="99,0,0,0" FontSize="14"/>
+            </Grid>
+            <Grid Width="300" Height="25" Canvas.Top="160" VerticalAlignment="Top" HorizontalAlignment="Center">
+                <Label Content="ФИО Родителя" Canvas.Top="129" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox Width="200" Height="25" HorizontalAlignment="Right" Margin="71,0,0,0" FontSize="14" MaxLength="100"/>
+            </Grid>
+            <Grid HorizontalAlignment="Center" Canvas.Top="200" VerticalAlignment="Center" Width="300" Height="76">
+                <Label Content="Комментарий" Canvas.Top="166" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <TextBox Height="50" Margin="0,25,0,0" TextWrapping="Wrap" FontSize="14" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" MaxLength="500"/>
+            </Grid>
+        </Canvas>
+        <Label Content="Ученик" Height="30" Width="86" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Foreground="#FFB56262" Margin="32,3,0,0"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Height="25" Margin="271,331,0,0" VerticalAlignment="Top" Width="80" Background="#FFDCF3CE" BorderBrush="#FF8BAB78"/>
+        <Button x:Name="cancel_student" Content="Отменить" HorizontalAlignment="Left" Height="25" Margin="172,331,0,0" VerticalAlignment="Top" Width="80" BorderBrush="#FFC53838" Background="#FFFF9393" Click="Button_Click_cancel_student"/>
+    </Grid>
+</Window>

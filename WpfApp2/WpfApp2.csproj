@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="g6AfWYSBA4k.jpg" />
+    <None Remove="image-PhotoRoom.png-PhotoRoom.png" />
+    <None Remove="photo_2023-11-10_23-37-45.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="g6AfWYSBA4k.jpg" />
+    <Resource Include="image-PhotoRoom.png-PhotoRoom.png" />
+    <Resource Include="photo_2023-11-10_23-37-45.jpg" />
+  </ItemGroup>
+
+</Project>
