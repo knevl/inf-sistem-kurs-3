@@ -21,7 +21,7 @@
                     <Button Content="Изменить" x:Name="edit_teacher" HorizontalAlignment="Left" Margin="519,0,0,0" VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3"/>
                     <Button Content="Удалить" x:Name="del_teacher" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
                     <TextBox x:Name="searchbox_teacher" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99" MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
-                    <DataGrid Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <DataGrid x:Name="dtteachers" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
                 </Grid>
             </TabItem>
             

@@ -17,11 +17,11 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <Button Content="Поиск" x:Name="search_students" HorizontalAlignment="Left" Margin="215,0,0,0" VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3"/>
-                    <Button Content="Добавить" x:Name="add_students" HorizontalAlignment="Left" Margin="457,0,0,0" VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78"/>
-                    <Button Content="Изменить" x:Name="edit_students" HorizontalAlignment="Left" Margin="519,0,0,0" VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3"/>
-                    <Button Content="Удалить" x:Name="del_students" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                    <Button Content="Добавить" x:Name="add_students" Margin="0,0,126,0" VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" HorizontalAlignment="Right" Width="57"/>
+                    <Button Content="Изменить" x:Name="edit_students" Margin="0,0,63,0" VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" HorizontalAlignment="Right" Width="58"/>
+                    <Button Content="Удалить" x:Name="del_students" HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
                     <TextBox x:Name="searchbox_students" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99" MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
-                    <DataGrid Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <DataGrid x:Name="dtstudents" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Списки групп" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3">
@@ -35,7 +35,7 @@
                     <Button Content="Изменить" x:Name="edit_stud_droup" HorizontalAlignment="Left" Margin="519,0,0,0" VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3"/>
                     <Button Content="Удалить" x:Name="del_stud_droup" HorizontalAlignment="Left" Margin="582,0,0,0" VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
                     <TextBox x:Name="searchbox_stud_droup" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99" MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
-                    <DataGrid Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <DataGrid x:Name="dtlist" Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
                 </Grid>
             </TabItem>
         </TabControl>
