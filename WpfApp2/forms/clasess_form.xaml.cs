@@ -10,17 +10,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp2
+namespace WpfApp2.forms
 {
     /// <summary>
-    /// Логика взаимодействия для Page_report.xaml
+    /// Логика взаимодействия для clasess_form.xaml
     /// </summary>
-    public partial class Page_report : Page
+    public partial class clasess_form : Window
     {
-        public Page_report()
+        public clasess_form()
         {
             InitializeComponent();
         }
