@@ -26,7 +26,7 @@ namespace WpfApp2
                 // Путь к рабочему столу пользователя
                 string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 // Полный путь к файлу на рабочем столе
-                string filePath = Path.Combine(desktopPath, "Report_Raspisanie.txt");
+                string filePath = Path.Combine(desktopPath, "Расписание.txt");
 
                 using (var connection = new Npgsql.NpgsqlConnection(connectionString))
                 {

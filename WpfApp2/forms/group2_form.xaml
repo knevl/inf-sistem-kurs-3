@@ -18,14 +18,14 @@
             <Grid Width="250" Height="25" Canvas.Top="40" VerticalAlignment="Center" HorizontalAlignment="Left">
                 <Label Content="Код направления" HorizontalAlignment="Left" VerticalAlignment="Center" />
                 <TextBox x:Name="g_id_dTextBox" Width="100" Height="25" HorizontalAlignment="Right" Margin="71,0,0,0"
-                         FontSize="14" MaxLength="25" />
+                         FontSize="14" MaxLength="25" PreviewTextInput="PreviewTextInput" />
             </Grid>
         </Canvas>
         <Label Content="Группа" Height="35" Width="232" HorizontalAlignment="Left" VerticalAlignment="Top"
                FontWeight="Bold" FontSize="18" Foreground="#FFB56262" Margin="32,3,0,0" />
         <Button x:Name="save_group" Content="Сохранить" HorizontalAlignment="Left" Height="25" Margin="246,150,0,0"
-                VerticalAlignment="Top" Width="80" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" />
+                VerticalAlignment="Top" Width="80" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" Click="save_group_Click" />
         <Button x:Name="cancel_group" Content="Отменить" HorizontalAlignment="Left" Height="25" Margin="148,150,0,0"
-                VerticalAlignment="Top" Width="80" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                VerticalAlignment="Top" Width="80" BorderBrush="#FFC53838" Background="#FFFF9393" Click="cancel_group_Click" />
     </Grid>
 </Window>

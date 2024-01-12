@@ -31,7 +31,7 @@
                             SelectedDateFormat="Short" HorizontalAlignment="Left" VerticalAlignment="Center"
                             Margin="99,0,0,0" FontSize="14" />
             </Grid>
-            <Grid HorizontalAlignment="Center" Canvas.Top="160" VerticalAlignment="Top" Width="296" Height="76">
+            <Grid HorizontalAlignment="Left" Canvas.Top="160" VerticalAlignment="Center" Width="298" Height="76">
                 <Label Content="Комментарий" HorizontalAlignment="Left" VerticalAlignment="Top" />
                 <TextBox x:Name="t_commentTextBox" Height="50" Margin="0,26,0,0" TextWrapping="Wrap" FontSize="14"
                          VerticalScrollBarVisibility="Auto" AcceptsReturn="True" MaxLength="500" />

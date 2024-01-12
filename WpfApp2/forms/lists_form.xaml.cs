@@ -1,14 +1,14 @@
 ﻿using System.Windows;
+using System.Windows.Input;
 using Npgsql;
 
 namespace WpfApp2;
 
 public partial class group_form : Window
 {
-    private readonly int listID; // Используем новое имя
+    private readonly int listID; 
     private readonly Page_students parentPage;
     private readonly int studentID;
-
     private readonly bool isEditMode;
 
     public group_form(Page_students page)
@@ -187,5 +187,13 @@ public partial class group_form : Window
             }
         }
 
+    }
+
+    private new void PreviewTextInput(object sender, TextCompositionEventArgs e)
+    {
+        if (!char.IsDigit(e.Text, 0))
+        {
+            e.Handled = true;
+        }
     }
 }

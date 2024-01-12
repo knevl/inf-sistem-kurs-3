@@ -101,7 +101,6 @@ public partial class Page_Teacher : Page
     {
         var searchTerm = searchbox_teacher.Text.Trim();
 
-        // Измененный запрос с условием WHERE, если поле поиска не пустое
         var searchSql = string.IsNullOrEmpty(searchTerm)
             ? "SELECT * FROM public.\"Teachers\""
             : $"SELECT * FROM public.\"Teachers\" WHERE LOWER(\"Surname\") LIKE LOWER('%{searchTerm}%')";

@@ -29,10 +29,12 @@ public partial class teacher_form : Window
         t_dobPicker.SelectedDate = DoB;
         t_commentTextBox.Text = comment;
     }
+
     private void TeacherForm_Closed(object? sender, EventArgs e)
     {
         if (sender is teacher_form teacherForm) teacherForm.parentPage.RefreshData();
     }
+
     private void Button_Click_cancel_teacher(object sender, RoutedEventArgs e)
     {
         var result = MessageBox.Show("Вы действительно хотите отменить действия, не сохранив результат?",

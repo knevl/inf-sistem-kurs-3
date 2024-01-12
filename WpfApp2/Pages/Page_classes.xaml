@@ -16,13 +16,13 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <Button Content="Поиск" x:Name="search_schedule" HorizontalAlignment="Left" Margin="215,0,0,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" Click="search_schedule_Click" />
                     <Button Content="Добавить" x:Name="add_schedule" HorizontalAlignment="Right" Margin="0,0,126,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" />
+                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" Click="add_schedule_Click" />
                     <Button Content="Изменить" x:Name="edit_schedule" HorizontalAlignment="Right" Margin="0,0,63,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" />
+                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" Click="edit_schedule_Click" />
                     <Button Content="Удалить" x:Name="del_schedule" HorizontalAlignment="Right" Margin="0,0,10,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" Click="del_schedule_Click" />
                     <TextBox x:Name="searchbox_schedule" HorizontalAlignment="Left" Margin="10,0,0,0"
                              TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99"
                              MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
@@ -36,13 +36,13 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <Button Content="Поиск" x:Name="search_clasess" HorizontalAlignment="Left" Margin="215,0,0,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" Click="search_clasess_Click" />
                     <Button Content="Добавить" x:Name="add_clasess" HorizontalAlignment="Right" Margin="0,0,126,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" />
+                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" Click="add_clasess_Click" />
                     <Button Content="Изменить" x:Name="edit_clasess" HorizontalAlignment="Right" Margin="0,0,63,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" />
+                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" Click="edit_clasess_Click" />
                     <Button Content="Удалить" x:Name="del_clasess" HorizontalAlignment="Right" Margin="0,0,10,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" Click="del_clasess_Click" />
                     <TextBox x:Name="searchbox_clasess" HorizontalAlignment="Left" Margin="10,0,0,0"
                              TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99"
                              MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />

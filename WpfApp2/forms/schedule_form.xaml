@@ -31,11 +31,11 @@
             </Grid>
             <Grid Width="300" Height="25" Canvas.Top="40" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Label Content="Время начала" VerticalAlignment="Center" HorizontalAlignment="Left" />
-                <xctk:TimePicker x:Name="starttime" Margin="110,0,0,0" Width="190"></xctk:TimePicker>
+                <xctk:TimePicker x:Name="starttime_tp" Margin="110,0,0,0" Width="190"></xctk:TimePicker>
             </Grid>
             <Grid Width="300" Height="25" Canvas.Top="80" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Label Content="Время окончания" VerticalAlignment="Center" HorizontalAlignment="Left" />
-                <xctk:TimePicker x:Name="endtime" Margin="110,0,0,0" Width="190"></xctk:TimePicker>
+                <xctk:TimePicker x:Name="endtime_tp" Margin="110,0,0,0" Width="190"></xctk:TimePicker>
             </Grid>
             <Grid Width="300" Height="25" Canvas.Top="120" VerticalAlignment="Top" HorizontalAlignment="Center">
                 <Label Content="Кабинет" VerticalAlignment="Center" HorizontalAlignment="Left" />

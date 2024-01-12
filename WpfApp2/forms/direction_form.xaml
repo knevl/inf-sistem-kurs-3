@@ -8,7 +8,7 @@
         WindowStartupLocation="CenterScreen"
         Title="Направление" Height="264" Width="399" Icon="/image-PhotoRoom.png-PhotoRoom.png">
     <Grid Background="#FFFFECED">
-        <Canvas HorizontalAlignment="Center" Height="120" Margin="0,43,0,0" VerticalAlignment="Top" Width="297"
+        <Canvas HorizontalAlignment="Center" Height="120" Margin="0,50,0,0" VerticalAlignment="Top" Width="297"
                 RenderTransformOrigin="0.5,0.5">
             <Grid Width="300" Height="25" Canvas.Top="0" VerticalAlignment="Top" HorizontalAlignment="Left">
                 <Label Content="Наименование" VerticalAlignment="Center" HorizontalAlignment="Left" />

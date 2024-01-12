@@ -16,14 +16,14 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <Button Content="Поиск" x:Name="search_direction" HorizontalAlignment="Left" Margin="215,0,0,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" Click="search_direction_Click" />
                     <Button Content="Добавить" x:Name="add_direction" HorizontalAlignment="Right" Margin="0,0,126,0"
                             VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78"
                             Click="add_direction_Click" />
                     <Button Content="Изменить" x:Name="edit_direction" HorizontalAlignment="Right" Margin="0,0,63,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" />
+                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" Click="edit_direction_Click" />
                     <Button Content="Удалить" x:Name="del_direction" HorizontalAlignment="Right" Margin="0,0,10,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" Click="del_direction_Click" />
                     <TextBox x:Name="searchbox_direction" HorizontalAlignment="Left" Margin="10,0,0,0"
                              TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Height="20" MaxLength="99"
                              MaxLines="3" Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
@@ -37,13 +37,13 @@
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <Button Content="Поиск" x:Name="search_group" HorizontalAlignment="Left" Margin="215,0,0,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFFFB0B0" Background="#FFFFD3D3" Click="search_group_Click" />
                     <Button Content="Добавить" x:Name="add_group" HorizontalAlignment="Right" Margin="0,0,126,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" />
+                            VerticalAlignment="Center" Height="20" Background="#FFDCF3CE" BorderBrush="#FF8BAB78" Click="add_group_Click" />
                     <Button Content="Изменить" x:Name="edit_group" HorizontalAlignment="Right" Margin="0,0,63,0"
-                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" />
+                            VerticalAlignment="Center" Height="20" Background="#FFF7F7F7" BorderBrush="#FFABADB3" Click="edit_group_Click" />
                     <Button Content="Удалить" x:Name="del_group" HorizontalAlignment="Right" Margin="0,0,10,0"
-                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" />
+                            VerticalAlignment="Center" Height="20" BorderBrush="#FFC53838" Background="#FFFF9393" Click="del_group_Click" />
                     <TextBox x:Name="searchbox_group" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap"
                              VerticalAlignment="Center" Width="200" Height="20" MaxLength="99" MaxLines="3"
                              Background="#FFF7F7F7" SelectionBrush="#FFFFB0B0" />
